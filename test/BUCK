@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'test',
+  srcs = glob([
+    '*.cpp',
+  ]),
+  deps = [
+    '//:brigand',
+  ],
+)

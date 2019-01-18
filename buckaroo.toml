@@ -1,0 +1,9 @@
+targets = [ "//:brigand" ]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-fusion"
+version = "*"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-variant"
+version = "*"
